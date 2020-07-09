@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #e6e6e6;
+}
+
+header, main, footer {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+header nav {
+    background: #528fd5;
+    overflow: hidden; /* Para ocultar el contenido que sobrepasa el contendor, Limpia los float  */
+}
+
+header nav ul {
+    list-style: none;
+    
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a{ 
+    padding: 10px 20px;
+    display: block; /* Permite que tenga un padding hacia arriba y hacia abajo */
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{ 
+    background: #75acec;
+}
+
+main .articles {
+    width: 68.5%;
+    margin-right: 1.5%;
+    float: left;
+}
+
+main .articles article {
+    padding: 20px;
+    background: white;
+    margin-bottom: 20px;
+}
+
+aside {
+    width: 30%;
+    background: orange;
+    float: left; 
+    padding: 20px;
+    box-sizing: border-box; /* Para que se vaya a la derecha en este caso */
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    clear:  both; /* Limpia los float left */
+    padding: 10px 0;
+    text-align: center;
+}

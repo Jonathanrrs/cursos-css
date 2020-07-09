@@ -1,0 +1,115 @@
+/* Páginas de colores: color-hex.com y flatuicolors*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* background: linear-gradient( to right, rgb(221, 91, 130) 0%, aquamarine 100%); */
+    text-align: center; /* Centrar texto */
+}
+
+/* blockquote[cite] { Cuando dentro de un elemento se tiene un atributo
+    background: red;
+} */
+
+/* * { Con el simbolo * se selecciona todo
+    color: red;
+} */
+
+h1 {
+    font-size: 20px; /* Tamaño de la fuente */
+    font-family: sans-serif; /* Cambiar el tipo de fuente */
+    font-weight: bold; /* Fuente más resaltada o ligera */
+}
+h2 {
+    font: bold 14px sans-serif; /* Es lo mismo que lo de arriba */
+}
+
+header,section, footer, aside, nav, article, hgroup {
+    /* border: 1px solid black; */ /* Border con una linea solida para que se muestre */
+    display: block; /* Que todos los elementos esten en bloques */
+}
+
+.agrupar {
+    background: linear-gradient( to right, rgb(221, 91, 130) 0%, aquamarine 100%);
+    width: 960px; /* Ancho del elemento */
+    margin: auto; /* Margen sea automatico, para este caso el div agrupar se centre, todos los margenes arriba, abajo, derecha e izquierda automaticamente */
+   /*  margin-top: 50px; */ /* Margenes son los espaciados que estan fuera del contenedor, en este caso es el de arriba */
+    /* margin: 15px (estos son de arriba y abajo) auto (estos son los de derecha e izquierda) */
+    /* padding: 10px; */ /* Relleno o espaciado interno */
+}
+
+.header {
+    background: #fffbb9;
+    border: 1px solid #999999;
+    padding: 20px;
+}
+header h1 {
+    text-align: center;
+}
+
+.menu {
+    background: #cccccc;
+    padding: 5px 15px;
+    text-align: left;
+    /* border-bottom: 1px solid black; */
+}
+
+.menu li { /* Estilizar todos los elementos li que esten dentro de un elemento que tengan una clase menu */
+    list-style: none; /* Estilo por defecto de las listas, en este caso los puntos */
+    padding: 5px;
+    font: bold 14px verdana;
+    display: inline-block; /* Que esten alineados uno al otro */
+}
+
+.seccion {
+   /*  border: 1px solid black; */
+    margin: 20px;
+    width: 60%;
+    float: left;
+    /* background: yellow; */
+}
+.columna {
+    width: 30%;
+    /* border: 1px solid black; */
+    float: left;
+   /*  background: yellow; */
+    margin: 20px 0px;
+    
+}
+
+.columna blockquote {
+    border: 1px solid black;
+    padding: 40px;
+    background: #fffbb9;
+    margin-bottom: 20px;
+}
+
+.pie {
+    clear: both;
+    padding: 20px;
+    background: #2d3436;
+    color: #ffffff;
+}
+
+article {
+   background: #fffbcc; 
+   border: 1px solid #999;
+   padding: 20px;
+   margin-bottom: 15px;
+}
+
+article footer {
+    text-align: right;
+}
+
+time {
+    color: #999;
+}
+
+img {
+    width: 90%;
+    padding-top: 10px;
+}
+
+
