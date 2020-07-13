@@ -1,0 +1,22 @@
+:root{
+    --color-title: red;
+    --color-subtitle: blue;
+}
+.subtitle {
+    font-size: .5em;
+    margin-top: -2em;
+}
+.title-1 {
+    color: var(--color-title);
+}
+.title-2 {
+    color: var(--color-subtitle);
+}
+
+.title-1 + .subtitle {
+    color: var(--color-title);
+}
+
+.title-2 + .subtitle {
+    color: var(--color-subtitle);
+}

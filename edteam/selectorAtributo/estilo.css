@@ -1,0 +1,58 @@
+/* [type="email"] {
+    border: 1px solid blue;
+}
+
+[type="submit"] {
+    background: red;
+    color: white;
+    border: none;
+}
+
+[required] {
+    border: 1px solid red;
+    margin: .5em;
+} */
+
+/* Empieza con */
+/* Detectar enlaces externos */
+/* a {
+    background: url(firmar.png)
+    no-repeat center right / 1rem;
+    padding-right: 1.2rem;
+}
+[href^="/"],
+[href^="https://ed.team"] {
+    color: red;
+    background: none;
+} */
+
+/* Termina con */
+/* 
+a {
+    background: url(pdf);
+}
+
+[href$=".pdf"] {
+    color: red;
+    background: url(pdf.png)
+    no-repeat center right / 1.5rem;
+    padding-right: 2rem;
+} */
+
+/* Selector de atributo que contiene */
+/* Esto también para no agregar clases a los atributos */
+[class*="button-" ]{
+    display: inline-block;
+    margin: 1em;
+    padding: 1em 2em;
+    text-decoration: none;
+    color: white
+}
+
+.button-cta {
+    background: orange;
+}
+
+.button-alert {
+    background: red;
+}
