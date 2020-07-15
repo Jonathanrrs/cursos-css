@@ -1,0 +1,33 @@
+body {
+    color: green;
+}
+p {
+    color: red;
+}
+/* Se le indica que va heredar del padre con el inherit */
+a {
+    color: inherit;
+    /* Si aqui se aplica el initial se pone negro porque es el valor inicial de los textos */
+}
+/* initial resetea a su valor inicial */
+
+span {
+    font-size: .5em;
+    
+}
+/* Se le da color al ul no al li pero los li heredan el color del papá */
+ul {
+    color: red;
+}
+
+li {
+    /* Ya no hereda del ul */
+    color: initial;
+}
+.last {
+    color: inherit;
+}
+ul span {
+    color: inherit;
+    font-size: inherit;
+}
