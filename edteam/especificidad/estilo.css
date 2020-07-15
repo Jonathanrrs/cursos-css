@@ -1,0 +1,32 @@
+/* La espcificidad es 111 */
+/* #main .post p {
+    color: red;
+} */
+/* La esoecificidad no entra porque tiene menor */
+/* p {
+    color: green;
+} */
+/* La espcificidad es 112 */
+/* div#main .post p {
+    color: blue;
+} */
+/* Mayor especificidad que la anterior */
+/* body div#main .post p {
+    color: purple;
+} */
+/* Mayor especificidad que la anterior */
+/* html body div#main .post p {
+    color: pink;
+} */
+
+/* Buena práctica es usar siempre clases */
+/* Lo mejor es solo trabajar con un solo nivel */
+.description {
+    color: red;
+}
+
+/* Descendientes no se recomienda más de 2 niveles */
+.product .description {
+    color: blue;
+}
+
