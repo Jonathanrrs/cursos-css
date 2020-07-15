@@ -1,0 +1,25 @@
+/* p {
+    color: red;
+} */
+/* El navegador le hará mas caso al ultimo, si es que el ultimo tiene
+la misma especificidad */
+/* p {
+    color: green;
+} */
+/* Aquí si aplica el estilo por mayor especificidad */
+p.post-description {
+    color: red;
+}
+/* ahí si aplica por el important, !Important se considera una mala práctica, se debe evitar */
+/* p {
+    color: blue !important;
+} */
+/* Si todos sin important ya no importa y se define por la especificidad y si todos tienen la misma especificidad ahora será por cascada */
+p {
+    color: green !important;
+}
+
+.post .post-description {
+    color: purple;
+}
+
