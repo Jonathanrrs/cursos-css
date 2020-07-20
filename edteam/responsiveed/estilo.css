@@ -5,9 +5,10 @@ body {
 section {
     background: rgba(255,255,255,.6);
     box-sizing: border-box;
+    font-size: .9em;
     float: left;
     margin: 1%;
-    padding: 15px;
+    padding: 1em;
 }
 
 img {
@@ -15,6 +16,18 @@ img {
     height: auto;
 }
 
+/* Rem es  igual a la medida del tamaño base del cdocumento*/
+/* em es la medida relativa del padre  */
+
+/* ul {
+    clear: both;
+}
+ul li {
+    font-size: 1.3em;
+} */
+
+/* Se deben poner imagenes no muy grandes, y optimizarlas lo más posbile */
+/* Una página llamada tinypng.com para comprimir las imgs para web */
 @media (min-width: 360px) {
     body {
         background: green;
