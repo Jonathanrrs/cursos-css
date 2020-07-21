@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f6f6f6;
+}
+
+h1 {
+    position: absolute;
+    top: 0;
+}
+.container {
+    width: 500px;
+    height: 300px;
+    background: url(https://i.blogs.es/3271ce/dmiqmwuuuaadddb/450_1000.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 0 0 10px #fff;
+}
+
+.container p {
+
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: black;
+    opacity: .8;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    box-sizing: border-box;
+    position: relative;
+    top: 100%;
+    transition: all .3s;
+}
+
+.container:hover p{
+    top: 0;
+}
+
