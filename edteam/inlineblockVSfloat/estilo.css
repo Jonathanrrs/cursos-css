@@ -1,0 +1,47 @@
+img {
+    max-width: 100%;
+}
+/* inline block te deja un espacio entre los elementos, hacer que un elemento de bloque se comporte como un elemento de linea */
+/*  */
+/* Float */
+.caja {
+    border: 1px solid black;
+    box-sizing: border-box;
+    color: #444;
+    padding: 1em;
+    width: 32.33%;
+    float: left; /* Aqui ya hay espacio para 2 elementos */
+    margin: .5%; /* Esto es para margin entre los elementos con float */
+}
+/* Inline-block */
+.caja {
+    border: 1px solid black;
+    box-sizing: border-box;
+    color: #444;
+    padding: 1em;
+    width: 32.33%;
+    display: inline-block; /* En 49% si hay para espacio para los 2 */
+    margin: .5%; /* Esto es para margin entre los elementos con float */
+    /* Esto se desacomoda con inline-block */
+}
+/* El float en este caso si tiene mas texto desarma todo los elementos */
+/* .box {
+    border: 1px solid black;
+    box-sizing: border-box;
+    color: #444;
+    padding: 1em;
+    width: 32.33%;
+    float: left; 
+    margin: .5%;
+} */
+
+.box {
+    border: 1px solid black;
+    box-sizing: border-box;
+    color: #444;
+    display: inline-block;
+    padding: 1em;
+    width: 31.9%;
+    margin: .5%;
+    vertical-align: top; /* los elementos se alinean por la parte de arriba */
+}
