@@ -35,6 +35,7 @@ img {
     margin: .5%;
 } */
 
+
 .box {
     border: 1px solid black;
     box-sizing: border-box;
@@ -45,3 +46,6 @@ img {
     margin: .5%;
     vertical-align: top; /* los elementos se alinean por la parte de arriba */
 }
+
+/* Si sabes que algo va  a tener la mism altura usar float */
+/* Si no usar inline-block y alineamos con vertical align top */
